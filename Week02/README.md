@@ -58,19 +58,19 @@
 
 ### 4. 분석
 
-💠**Greedy vs Beam**
+🔹**Greedy vs Beam**
 - Beam Search가 전반적으로 BLEU 높음 (여러 후보 시퀀스를 동시 탐색)
 - 단, Greedy가 속도는 압도적으로 빠름 (Beam-3: 2배, Beam-5: 3배, Beam-7: 24배, Beam-10: 33배 느림)
 
 <br>
 
-💠**Beam Width 최적점**
+🔹**Beam Width 최적점**
 - Width 3→5→7로 갈수록 BLEU 증가, **Width=7(0.0363)에서 최고점**
 - Width=10에서는 오히려 감소 → 후보가 너무 많아지면 저품질 경로까지 탐색에 포함되어 품질 저하
 
 <br>
 
-💠**속도 trade-off**
+🔹**속도 trade-off**
 - Width가 커질수록 후보 수 증가 → 메모리/연산량 증가 → 속도 급격히 저하
 - Width 7부터는 실용성 떨어질 정도로 느림 (17~24초)
 
