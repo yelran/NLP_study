@@ -1,4 +1,4 @@
-## [Assignment01] - NSMC LSTM 감성 분석
+## [Assignment 01] - NSMC LSTM 감성 분석
 
 - Bidirectional LSTM으로 네이버 영화 리뷰 감성 분석 구현
 - Test Accuracy 85% 이상 달성 목표
